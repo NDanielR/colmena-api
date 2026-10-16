@@ -1,0 +1,18 @@
+### registrar usuario
+POST http://localhost:8080/api/auth/registro
+Content-Type: application/json
+
+{
+  "nombre": "nelson ramirez",
+  "email": "nelson@gmail.com",
+  "password": "nelson123"
+}
+
+###
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+    "username":"nelson@gmail.com",
+    "password":"nelson123"
+}
